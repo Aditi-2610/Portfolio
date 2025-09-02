@@ -5,7 +5,14 @@ function Hero() {
         <div className="max-w-6xl mx-auto section-padding text-center">
           <div className="max-w-3xl mx-auto">
             <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-[var(--primary-color)] to-[var(--accent-color)] flex items-center justify-center">
-              <div className="icon-user text-4xl text-white"></div>
+                <img
+                  src="./assets/images/MyImage.jpg"              
+                  alt="Portrait of Aditi R. Limkar"
+                  className="w-full h-full rounded-full object-cover bg-white"
+                  loading="eager"
+                  width={128}
+                  height={128}
+                />
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold text-[var(--text-primary)] mb-6">
