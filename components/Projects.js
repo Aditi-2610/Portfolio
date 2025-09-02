@@ -2,28 +2,28 @@ function Projects() {
   try {
     const projects = [
       {
-        title: "Task Management App",
-        description: "A full-stack web application for managing tasks and projects with user authentication, real-time updates, and responsive design.",
-        technologies: ["React", "Node.js", "Express", "MongoDB", "JWT"],
+        title: "COLORIZATION OF HISTORICAL BLACK-AND-WHITE PHOTOS",
+        description: "A deep learning model using PyTorch and TensorFlow to restore and colorize historical grayscale images with realistic color mapping.",
+        technologies: ["PyTorch", "TensorFlow", "CNN", "OpenCV", "MatPlotLib"],
         github: "https://github.com",
         demo: "https://example.com",
-        image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        image: "./assets/images/Project1.png"
       },
       {
-        title: "Weather Dashboard",
-        description: "Interactive weather application that displays current conditions and forecasts using external APIs with beautiful data visualizations.",
-        technologies: ["JavaScript", "Chart.js", "Weather API", "CSS3"],
+        title: "SIEM INTEGRATION WITH ARTIFICIAL INTELLIGENCE",
+        description: "A Security Information and Event Management (SIEM) solution using Microsoft Sentinel for automating workflows and responding to cybersecurity incidents efficiently ",
+        technologies: ["Microsoft Sentinel", "Azure", "Open AI", "Automated Incident Response"],
         github: "https://github.com",
         demo: "https://example.com",
-        image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        image: "./assets/images/Project2.jpg"
       },
       {
-        title: "E-Learning Platform",
-        description: "Educational platform with course management, video streaming, progress tracking, and interactive quizzes for students and instructors.",
-        technologies: ["Python", "Django", "PostgreSQL", "Bootstrap"],
+        title: "AGILECART WITH CI/CD PIPELINE",
+        description: "Designed and implemented a robust CI/CD pipeline for a shopping application.",
+        technologies: ["AWS(Lambda, EC2, S3, CodePipeline, CodeBuild, CodeDeploy)", "Buildspec.yml", "Appspec.yml", "GitHub Webhooks"],
         github: "https://github.com",
         demo: "https://example.com",
-        image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        image: "./assets/images/Project3.jpg"
       }
     ];
 

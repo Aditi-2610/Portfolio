@@ -4,7 +4,7 @@ function Skills() {
       {
         title: "Frontend",
         icon: "monitor",
-        skills: ["HTML/CSS", "JavaScript", "React", "Tailwind CSS", "Responsive Design"]
+        skills: ["HTML/CSS", "JavaScript", "React", "Tailwind CSS", "ExpressJS", "Bootstrap"]
       },
       {
         title: "Backend",
@@ -20,6 +20,16 @@ function Skills() {
         title: "Programming Languages",
         icon: "code-2",
         skills: ["JavaScript", "Python", "Java", "C++", "SQL"]
+      },
+      {
+        title: "SAP",
+        icon: "code-2",
+        skills: ["ABAP", "SAC Planning", "HANA"]
+      },
+      {
+        title: "Database",
+        icon: "code-2",
+        skills: ["MySQL", "MongoDB", "Relational Database", , "NoSQL"]
       }
     ];
 
@@ -66,7 +76,7 @@ function Skills() {
               Currently Learning
             </h3>
             <div className="flex flex-wrap justify-center gap-4">
-              {["TypeScript", "GraphQL", "Next.js", "MongoDB", "DevOps"].map((skill, index) => (
+              {["Machine Learning", "100 Days of Python"].map((skill, index) => (
                 <span key={index} className="bg-white px-4 py-2 rounded-full text-[var(--text-primary)] border-2 border-[var(--primary-color)] font-medium">
                   {skill}
                 </span>

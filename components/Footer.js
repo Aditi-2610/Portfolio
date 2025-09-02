@@ -5,7 +5,7 @@ function Footer() {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Alex Johnson</h3>
+              <h3 className="text-xl font-bold mb-4">Aditi R. Limkar</h3>
               <p className="text-gray-300 mb-4">
                 Computer Science graduate passionate about creating innovative software solutions.
               </p>
