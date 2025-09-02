@@ -82,18 +82,6 @@ function Contact() {
                     </a>
                   </div>
                 </div>
-
-                <div className="flex items-center">
-                  <div className="w-12 h-12 bg-white rounded-lg shadow-md flex items-center justify-center mr-4">
-                    <div className="icon-phone text-xl text-green-600"></div>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-[var(--text-primary)]">Phone</h4>
-                    <a href="tel:+14143176039" className="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors">
-                      +1 (414) 317-6039
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
 
