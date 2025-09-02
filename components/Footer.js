@@ -41,6 +41,12 @@ function Footer() {
                   </button>
                 </li>
                 <li>
+                  <button onClick={() => document.getElementById('experience').scrollIntoView({ behavior: 'smooth' })} 
+                          className="text-gray-300 hover:text-white transition-colors">
+                    Experience
+                  </button>
+                </li>
+                <li>
                   <button onClick={() => document.getElementById('skills').scrollIntoView({ behavior: 'smooth' })} 
                           className="text-gray-300 hover:text-white transition-colors">
                     Skills

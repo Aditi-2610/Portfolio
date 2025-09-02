@@ -26,6 +26,9 @@ function Header() {
               <button onClick={() => scrollToSection('about')} className="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors">
                 About
               </button>
+              <button onClick={() => scrollToSection('experience')} className="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors">
+                Experience
+              </button>
               <button onClick={() => scrollToSection('skills')} className="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors">
                 Skills
               </button>
