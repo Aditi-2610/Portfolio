@@ -59,7 +59,6 @@ function Footer() {
               <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
               <div className="space-y-2 text-gray-300">
                 <p>aditilimkar26@gmail.com</p>
-                <p>+1 (414) 317-6039</p>
                 <p>Milwaukee, WI</p>
               </div>
             </div>

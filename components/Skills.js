@@ -28,7 +28,7 @@ function Skills() {
       },
       {
         title: "Database",
-        icon: "rows4",
+        icon: "rows-4",
         skills: ["MySQL", "MongoDB", "Relational Database", , "NoSQL"]
       }
     ];
