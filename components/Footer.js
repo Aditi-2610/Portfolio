@@ -10,15 +10,15 @@ function Footer() {
                 Computer Science graduate passionate about creating innovative software solutions.
               </p>
               <div className="flex space-x-4">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+                <a href="https://github.com/Aditi-2610" target="_blank" rel="noopener noreferrer"
                    className="w-10 h-10 bg-gray-700 rounded-lg flex items-center justify-center hover:bg-[var(--primary-color)] transition-colors">
                   <div className="icon-github text-lg"></div>
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+                <a href="https://www.linkedin.com/in/aditi-limkar-511128193/" target="_blank" rel="noopener noreferrer"
                    className="w-10 h-10 bg-gray-700 rounded-lg flex items-center justify-center hover:bg-[var(--primary-color)] transition-colors">
                   <div className="icon-linkedin text-lg"></div>
                 </a>
-                <a href="mailto:alex.johnson@email.com"
+                <a href="mailto:aditilimkar26@gmail.com"
                    className="w-10 h-10 bg-gray-700 rounded-lg flex items-center justify-center hover:bg-[var(--primary-color)] transition-colors">
                   <div className="icon-mail text-lg"></div>
                 </a>
@@ -58,16 +58,16 @@ function Footer() {
             <div>
               <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
               <div className="space-y-2 text-gray-300">
-                <p>alex.johnson@email.com</p>
-                <p>+1 (234) 567-8900</p>
-                <p>San Francisco, CA</p>
+                <p>aditilimkar26@gmail.com</p>
+                <p>+1 (414) 317-6039</p>
+                <p>Milwaukee, WI</p>
               </div>
             </div>
           </div>
           
           <div className="border-t border-gray-700 pt-8 text-center">
             <p className="text-gray-300">
-              © 2025 Alex Johnson. All rights reserved. Built with passion for software development.
+              © 2025 Aditi R Limkar. All rights reserved. Built with passion for software development.
             </p>
           </div>
         </div>

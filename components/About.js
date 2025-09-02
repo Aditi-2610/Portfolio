@@ -18,7 +18,7 @@ function About() {
                 My Journey
               </h3>
               <p className="text-[var(--text-secondary)] mb-6 leading-relaxed">
-                Recently graduated with a Bachelor's degree in Computer Science from State University. 
+                Recently graduated with a Bachelor's degree in Computer Science from University of Wisconsin - Milwaukee. 
                 Throughout my academic journey, I've developed a strong foundation in programming, 
                 algorithms, and software engineering principles.
               </p>
@@ -35,7 +35,7 @@ function About() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-[var(--text-primary)]">Education</h4>
-                    <p className="text-[var(--text-secondary)]">B.S. Computer Science, State University (2025)</p>
+                    <p className="text-[var(--text-secondary)]">M.S. Computer Science, University of Wisconsin - Milwaukee (2025)</p>
                   </div>
                 </div>
                 
@@ -45,7 +45,7 @@ function About() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-[var(--text-primary)]">Location</h4>
-                    <p className="text-[var(--text-secondary)]">San Francisco, CA</p>
+                    <p className="text-[var(--text-secondary)]">Milwaukee, WI</p>
                   </div>
                 </div>
                 

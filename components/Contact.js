@@ -54,7 +54,7 @@ function Contact() {
                   <div>
                     <h4 className="font-semibold text-[var(--text-primary)]">Email</h4>
                     <a href="mailto:alex.johnson@email.com" className="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors">
-                      alex.johnson@email.com
+                      aditilimkar26@gmail.com
                     </a>
                   </div>
                 </div>
@@ -65,8 +65,8 @@ function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-[var(--text-primary)]">LinkedIn</h4>
-                    <a href="https://linkedin.com/in/alexjohnson" target="_blank" rel="noopener noreferrer" className="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors">
-                      linkedin.com/in/alexjohnson
+                    <a href="https://linkedin.com/in/aditi-limkar-511128193" target="_blank" rel="noopener noreferrer" className="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors">
+                      www.linkedin.com/in/aditi-limkar-511128193
                     </a>
                   </div>
                 </div>
@@ -77,8 +77,8 @@ function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-[var(--text-primary)]">GitHub</h4>
-                    <a href="https://github.com/alexjohnson" target="_blank" rel="noopener noreferrer" className="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors">
-                      github.com/alexjohnson
+                    <a href="https://github.com/Aditi-2610" target="_blank" rel="noopener noreferrer" className="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors">
+                      github.com/aditi-2610
                     </a>
                   </div>
                 </div>
@@ -89,8 +89,8 @@ function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-[var(--text-primary)]">Phone</h4>
-                    <a href="tel:+1234567890" className="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors">
-                      +1 (234) 567-8900
+                    <a href="tel:+14143176039" className="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors">
+                      +1 (414) 317-6039
                     </a>
                   </div>
                 </div>

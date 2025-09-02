@@ -9,7 +9,7 @@ function Hero() {
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold text-[var(--text-primary)] mb-6">
-              Hi, I'm <span className="text-[var(--primary-color)]">Alex Johnson</span>
+              Hi, I'm <span className="text-[var(--primary-color)]">Aditi R. Limkar</span>
             </h1>
             
             <p className="text-xl md:text-2xl text-[var(--text-secondary)] mb-8">
@@ -37,15 +37,15 @@ function Hero() {
             </div>
             
             <div className="flex justify-center space-x-6 mt-12">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+              <a href="https://github.com/Aditi-2610" target="_blank" rel="noopener noreferrer" 
                  className="w-12 h-12 bg-white rounded-lg shadow-md flex items-center justify-center hover:shadow-lg transition-shadow">
                 <div className="icon-github text-xl text-[var(--text-primary)]"></div>
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.linkedin.com/in/aditi-limkar-511128193/" target="_blank" rel="noopener noreferrer"
                  className="w-12 h-12 bg-white rounded-lg shadow-md flex items-center justify-center hover:shadow-lg transition-shadow">
                 <div className="icon-linkedin text-xl text-[var(--primary-color)]"></div>
               </a>
-              <a href="mailto:alex.johnson@email.com"
+              <a href="mailto:aditilimkar26@gmail.com"
                  className="w-12 h-12 bg-white rounded-lg shadow-md flex items-center justify-center hover:shadow-lg transition-shadow">
                 <div className="icon-mail text-xl text-[var(--text-primary)]"></div>
               </a>
