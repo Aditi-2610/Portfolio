@@ -18,17 +18,17 @@ function Skills() {
       },
       {
         title: "Programming Languages",
-        icon: "code-2",
+        icon: "code-bracket",
         skills: ["JavaScript", "Python", "Java", "C++", "SQL"]
       },
       {
         title: "SAP",
-        icon: "code-2",
+        icon: "computer-desktop",
         skills: ["ABAP", "SAC Planning", "HANA"]
       },
       {
         title: "Database",
-        icon: "code-2",
+        icon: "circle-stack",
         skills: ["MySQL", "MongoDB", "Relational Database", , "NoSQL"]
       }
     ];

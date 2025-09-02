@@ -76,15 +76,6 @@ function Projects() {
                     <div className="icon-github text-lg mr-2"></div>
                     Code
                   </a>
-                  <a 
-                    href={project.demo}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors"
-                  >
-                    <div className="icon-external-link text-lg mr-2"></div>
-                    Live Demo
-                  </a>
                 </div>
               </div>
             ))}
