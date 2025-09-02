@@ -50,8 +50,8 @@ The portfolio follows a modern, corporate design template with:
 
 ## Contact Information
 
-- Email: alex.johnson@email.com
-- Phone: +1 (234) 567-8900
-- Location: San Francisco, CA
-- LinkedIn: linkedin.com/in/alexjohnson
-- GitHub: github.com/alexjohnson
+- Email: aditilimkar26@gmail.com
+- Phone: +1 (414) 317-6039
+- Location: Milwaukee, WI
+- LinkedIn: [linkedin.com/in/alexjohnson](https://github.com/Aditi-2610)
+- GitHub: [github.com/alexjohnson](https://www.linkedin.com/in/aditi-limkar-511128193/)
