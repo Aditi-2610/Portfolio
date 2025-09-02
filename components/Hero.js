@@ -8,7 +8,7 @@ function Hero() {
                 <img
                   src="./assets/images/MyImage.jpg"              
                   alt="Portrait of Aditi R. Limkar"
-                  className="w-full h-full rounded-full object-cover bg-white"
+                  className="w-full h-full rounded-full object-cover bg-white shadow-lg"
                   loading="eager"
                   width={128}
                   height={128}

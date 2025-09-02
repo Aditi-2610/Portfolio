@@ -72,7 +72,7 @@ function Footer() {
           
           <div className="border-t border-gray-700 pt-8 text-center">
             <p className="text-gray-300">
-              © 2025 Aditi R Limkar. All rights reserved. Built with passion for software development.
+              © 2025 Built with passion, and designed by Aditi R Limkar. 
             </p>
           </div>
         </div>
