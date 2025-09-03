@@ -73,6 +73,29 @@ function Experience() {
       }
     ];
 
+    // Pastel badge colors for each type
+      const TYPE_BADGE = {
+        'Internship': {
+          // Slate Azure (blue)
+          bg:   'bg-[rgba(154,178,205,0.18)]',
+          text: 'text-[#3b556d]',
+        },
+        'Research Internship': {
+          // Amber Rose (pink)
+          bg:   'bg-[rgba(205,154,178,0.18)]',
+          text: 'text-[#6d3b55]',
+        },
+        'Full-time': {
+          // Willow Brook (green)
+          bg:   'bg-[rgba(178,205,154,0.22)]',
+          text: 'text-[#365237]',
+        },
+      };
+
+      const badgeClasses = (t) =>
+        `${(TYPE_BADGE[t]?.bg || 'bg-[rgba(154,178,205,0.18)]')} ${(TYPE_BADGE[t]?.text || 'text-[#3b556d]')}`;
+
+
     return (
       <section
         id="experience"
@@ -121,14 +144,16 @@ function Experience() {
                             {exp.duration}
                           </span>
                           <span
-                            className={`px-2 py-1 rounded-full text-xs font-medium ${
-                              exp.type === "Internship" || exp.type === "Research Internship"
-                                ? "bg-blue-100 text-blue-700"
-                                : "bg-green-100 text-green-700"
-                            }`}
+                            className="px-2 py-1 rounded-full text-xs font-medium border border-[var(--border-color)]"
+                            style={
+                              exp.type === 'Full-time' ? { backgroundColor: 'rgba(178,205,154,0.22)', color: '#365237' } :
+                              exp.type === 'Research Internship' ? { backgroundColor: 'rgba(205,154,178,0.18)', color: '#6d3b55' } :
+                              { backgroundColor: 'rgba(154,178,205,0.18)', color: '#3b556d' } // Internship default
+                            }
                           >
                             {exp.type}
                           </span>
+                            
                         </div>
                       </div>
                     </div>

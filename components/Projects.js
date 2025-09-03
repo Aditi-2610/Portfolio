@@ -26,7 +26,15 @@ function Projects() {
         image: "./assets/images/Project3.jpg"
       }
     ];
-
+    const CHIP_PALETTE = [
+        { bg: 'rgba(154,178,205,0.18)', text: '#3b556d' }, // Slate Azure
+        { bg: 'rgba(205,154,178,0.18)', text: '#6d3b55' }, // Amber Rose
+        { bg: 'rgba(178,205,154,0.22)', text: '#365237' }, // Willow Brook
+      ];
+      const chipStyle = (i) => {
+        const c = CHIP_PALETTE[i % CHIP_PALETTE.length];
+        return { backgroundColor: c.bg, color: c.text, borderColor: 'var(--border-color)' };
+      };
     return (
       <section id="projects" className="bg-white section-padding" data-name="projects" data-file="components/Projects.js">
         <div className="max-w-6xl mx-auto">
@@ -60,7 +68,11 @@ function Projects() {
                 
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.technologies.map((tech, techIndex) => (
-                    <span key={techIndex} className="bg-[var(--secondary-color)] text-[var(--primary-color)] px-3 py-1 rounded-full text-sm font-medium">
+                    <span
+                      key={techIndex}
+                      className="px-3 py-1 rounded-full text-sm font-medium border"
+                      style={chipStyle(techIndex)}
+                    >
                       {tech}
                     </span>
                   ))}

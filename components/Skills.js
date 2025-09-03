@@ -57,16 +57,25 @@ function Skills() {
                   </h3>
                 </div>
                 
-                <div className="space-y-3">
-                  {category.skills.map((skill, skillIndex) => (
-                    <div key={skillIndex} className="flex items-center">
-                      <div className="w-2 h-2 bg-[var(--primary-color)] rounded-full mr-3 flex-shrink-0"></div>
-                      <span className="text-[var(--text-secondary)] text-sm">
-                        {skill}
-                      </span>
-                    </div>
-                  ))}
-                </div>
+                <div className="flex flex-wrap gap-2 justify-center">
+                    {category.skills.map((skill, skillIndex) => {
+                      const palette = [
+                        { bg: 'rgba(154,178,205,0.18)', text: '#3b556d' }, // blue
+                        { bg: 'rgba(205,154,178,0.18)', text: '#6d3b55' }, // pink
+                        { bg: 'rgba(178,205,154,0.22)', text: '#365237' }, // green
+                      ];
+                      const c = palette[skillIndex % palette.length];
+                      return (
+                        <span
+                          key={skillIndex}
+                          className="px-3 py-1 rounded-full text-sm font-medium border"
+                          style={{ backgroundColor: c.bg, color: c.text, borderColor: 'var(--border-color)' }}
+                        >
+                          {skill}
+                        </span>
+                      );
+                    })}
+                  </div>
               </div>
             ))}
           </div>
@@ -76,11 +85,20 @@ function Skills() {
               Currently Learning
             </h3>
             <div className="flex flex-wrap justify-center gap-4">
-              {["Machine Learning", "100 Days of Python"].map((skill, index) => (
-                <span key={index} className="bg-white px-4 py-2 rounded-full text-[var(--text-primary)] border-2 border-[var(--primary-color)] font-medium">
-                  {skill}
-                </span>
-              ))}
+              {["Machine Learning", "100 Days of Python"].map((skill, index) => {
+                  const c = index % 2 === 0
+                    ? { bg: 'rgba(154,178,205,0.18)', text: '#3b556d' }   // blue
+                    : { bg: 'rgba(205,154,178,0.18)', text: '#6d3b55' };  // pink
+                  return (
+                    <span
+                      key={index}
+                      className="px-4 py-2 rounded-full text-sm font-medium border"
+                      style={{ backgroundColor: c.bg, color: c.text, borderColor: 'var(--border-color)' }}
+                    >
+                      {skill}
+                    </span>
+                  );
+                })}
             </div>
           </div>
         </div>

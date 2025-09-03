@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="triad-pastel">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,14 +26,22 @@
     <style type="text/tailwindcss">
     @layer theme {
         :root {
-            --primary-color: #334155;
-            --secondary-color: #f8fafc;
-            --accent-color: #f59e0b;
-            --text-primary: #0f172a;
-            --text-secondary: #475569;
-            --border-color: #e2e8f0;
-        }
-    }
+            --secondary-color: #f8fafc;   /* light background */
+            --text-primary:   #0f172a;    /* headings */
+            --text-secondary: #475569;    /* body text */
+            --border-color:   #e2e8f0;
+            }
+
+        :root[data-theme="triad-pastel"] {
+            /* Use blue → pink for gradients and CTAs */
+            --primary-color: #9ab2cd;  /* Slate Azure */
+            --accent-color:  #cd9ab2;  /* Amber Rose */
+
+            /* Extra tokens you can use for chips/badges/backgrounds */
+            --tone-green:    #b2cd9a;  /* Willow Brook */
+            --tone-blue:     #9ab2cd;  /* same as primary */
+            --tone-pink:     #cd9ab2;  /* same as accent */
+         } }
 
     @layer base {
         body {
