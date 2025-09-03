@@ -23,10 +23,10 @@ function Hero() {
             {/* <p className="text-xl md:text-2xl text-[var(--text-secondary)] mb-8">
               Computer Science Graduate & Aspiring Software Developer
             </p> */}
-            <p class="text-2xl md:text-3xl mb-4">
-              <span class="text-[var(--text-secondary)]">Hello, I’m a </span>
-              <span id="tw-text" class="font-bold" style="color: var(--primary-color)"></span>
-              <span id="tw-caret" aria-hidden="true" style="margin-left:4px;opacity:.85">|</span>
+            <p className="text-2xl md:text-3xl mb-4">
+              <span className="text-[var(--text-secondary)]">Hello, I’m a </span>
+              <span id="tw-text" className="font-bold" style={{ color: 'var(--primary-color)' }}></span>
+              <span id="tw-caret" aria-hidden="true" style={{ marginLeft: 4, opacity: 0.85 }}>|</span>
             </p>
 
 
