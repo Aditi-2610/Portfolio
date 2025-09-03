@@ -17,7 +17,7 @@ function Hero() {
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold text-[var(--text-primary)] mb-6">
-              Hi, I'm <span className="text-[var(--secondary-color)]">Aditi R. Limkar</span>
+              Hi, I'm <span className="text-[var(--text-secondary)]">Aditi R. Limkar</span>
             </h1>
             
             {/* <p className="text-xl md:text-2xl text-[var(--text-secondary)] mb-8">

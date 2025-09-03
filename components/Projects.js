@@ -86,7 +86,7 @@ function Projects() {
                     className="flex items-center text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors"
                   >
                     <div className="icon-github text-lg mr-2"></div>
-                    Code
+                    View Code
                   </a>
                 </div>
               </div>

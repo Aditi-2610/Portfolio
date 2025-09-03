@@ -49,7 +49,7 @@ function Skills() {
             {skillCategories.map((category, index) => (
               <div key={index} className="card">
                 <div className="text-center mb-6">
-                  <div className="w-16 h-16 bg-gradient-to-r from-[var(--primary-color)] to-[var(--accent-color)] rounded-xl flex items-center justify-center mx-auto mb-4">
+                  <div className="w-16 h-16 bg-[var(--tone-blue)] rounded-xl flex items-center justify-center mx-auto mb-4">
                     <div className={`icon-${category.icon} text-2xl text-white`}></div>
                   </div>
                   <h3 className="text-xl font-bold text-[var(--text-primary)]">
@@ -92,8 +92,8 @@ function Skills() {
                   return (
                     <span
                       key={index}
-                      className="px-4 py-2 rounded-full text-sm font-medium border"
-                      style={{ backgroundColor: c.bg, color: c.text, borderColor: 'var(--border-color)' }}
+                      className="px-5 py-2 rounded-full text-md font-medium border"
+                      style={{ backgroundColor: c.bg, color: c.text, borderColor: c.text }}
                     >
                       {skill}
                     </span>
