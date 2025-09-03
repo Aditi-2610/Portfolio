@@ -64,7 +64,7 @@ function About() {
             <div className="space-y-6">
               <div className="card">
                 <div className="flex items-start">
-                  <div className="w-12 h-12 bg-[var(--primary-color)] rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                  <div className="w-12 h-12 bg-[var(--tone-green)] rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
                     <div className="icon-code text-xl text-white"></div>
                   </div>
                   <div>
@@ -80,7 +80,7 @@ function About() {
 
               <div className="card">
                 <div className="flex items-start">
-                  <div className="w-12 h-12 bg-green-500 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                  <div className="w-12 h-12 bg-[var(--tone-pink)] rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
                     <div className="icon-lightbulb text-xl text-white"></div>
                   </div>
                   <div>
@@ -96,7 +96,7 @@ function About() {
 
               <div className="card">
                 <div className="flex items-start">
-                  <div className="w-12 h-12 bg-purple-500 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                  <div className="w-12 h-12 bg-[var(--tone-blue)] rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
                     <div className="icon-users text-xl text-white"></div>
                   </div>
                   <div>

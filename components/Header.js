@@ -20,22 +20,22 @@ function Header() {
             
             {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-8">
-              <button onClick={() => scrollToSection('home')} className="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors">
+              <button onClick={() => scrollToSection('home')} className="text-[var(--text-secondary)] hover:text-[var(--secondary-color)] transition-colors">
                 Home
               </button>
-              <button onClick={() => scrollToSection('about')} className="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors">
+              <button onClick={() => scrollToSection('about')} className="text-[var(--text-secondary)] hover:text-[var(--secondary-color)] transition-colors">
                 About
               </button>
-              <button onClick={() => scrollToSection('experience')} className="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors">
+              <button onClick={() => scrollToSection('experience')} className="text-[var(--text-secondary)] hover:text-[var(--secondary-color)] transition-colors">
                 Experience
               </button>
-              <button onClick={() => scrollToSection('skills')} className="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors">
+              <button onClick={() => scrollToSection('skills')} className="text-[var(--text-secondary)] hover:text-[var(--secondary-color)] transition-colors">
                 Skills
               </button>
-              <button onClick={() => scrollToSection('projects')} className="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors">
+              <button onClick={() => scrollToSection('projects')} className="text-[var(--text-secondary)] hover:text-[var(--secondary-color)] transition-colors">
                 Projects
               </button>
-              <button onClick={() => scrollToSection('contact')} className="text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors">
+              <button onClick={() => scrollToSection('contact')} className="text-[var(--text-secondary)] hover:text-[var(--secondary-color)] transition-colors">
                 Contact
               </button>
             </div>

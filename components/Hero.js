@@ -17,14 +17,14 @@ function Hero() {
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold text-[var(--text-primary)] mb-6">
-              Hi, I'm <span className="text-[var(--primary-color)]">Aditi R. Limkar</span>
+              Hi, I'm <span className="text-[var(--secondary-color)]">Aditi R. Limkar</span>
             </h1>
             
             {/* <p className="text-xl md:text-2xl text-[var(--text-secondary)] mb-8">
               Computer Science Graduate & Aspiring Software Developer
             </p> */}
             <p className="text-2xl md:text-3xl mb-4">
-              <span className="text-[var(--text-secondary)]">Hello, I’m a </span>
+              <span className="text-[var(--text-secondary)]">I’m a </span>
               <span id="tw-text" className="font-bold" style={{ color: 'var(--primary-color)' }}></span>
               <span id="tw-caret" aria-hidden="true" style={{ marginLeft: 4, opacity: 0.85 }}>|</span>
             </p>
