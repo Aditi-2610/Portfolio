@@ -101,48 +101,52 @@
     <script type="text/babel" src="app.js"></script>
 </body>
 <script>
-    // Words to cycle through
-    const TW_ROLES = ["Software Developer", "Web Developer", "Artist"];
+  // Rotating words
+  const TW_ROLES = ["Software Developer", "Web Developer", "Artist"];
 
-    document.addEventListener("DOMContentLoaded", () => {
-        const el = document.getElementById("tw-text");
-        const caret = document.getElementById("tw-caret");
+  function startTypewriter() {
+    const el = document.getElementById("tw-text");
+    const caret = document.getElementById("tw-caret");
 
-        let i = 0;          // which word
-        let txt = "";       // current substring
-        let deleting = false;
+    // Wait until React/Babel has rendered Hero
+    if (!el || !caret) {
+      setTimeout(startTypewriter, 100);
+      return;
+    }
 
-        const TYPE_SPEED = 110;  // ms per letter while typing
-        const DEL_SPEED  = 55;   // ms per letter while deleting
-        const HOLD_MS    = 900;  // pause when word completed
+    let i = 0, txt = "", deleting = false;
+    const TYPE_SPEED = 110, DEL_SPEED = 55, HOLD_MS = 900;
 
-        function type() {
-        const full = TW_ROLES[i % TW_ROLES.length];
+    function type() {
+      const full = TW_ROLES[i % TW_ROLES.length];
 
-        if (!deleting && txt.length < full.length) {
-            txt = full.slice(0, txt.length + 1);
-            el.textContent = txt;
-            setTimeout(type, TYPE_SPEED);
-        } else if (!deleting && txt.length === full.length) {
-            setTimeout(() => { deleting = true; type(); }, HOLD_MS);
-        } else if (deleting && txt.length > 0) {
-            txt = full.slice(0, txt.length - 1);
-            el.textContent = txt;
-            setTimeout(type, DEL_SPEED);
-        } else {
-            deleting = false;
-            i++;
-            setTimeout(type, 200);
-        }
-        }
+      if (!deleting && txt.length < full.length) {
+        txt = full.slice(0, txt.length + 1);
+        el.textContent = txt;
+        setTimeout(type, TYPE_SPEED);
+      } else if (!deleting && txt.length === full.length) {
+        setTimeout(() => { deleting = true; type(); }, HOLD_MS);
+      } else if (deleting && txt.length > 0) {
+        txt = full.slice(0, txt.length - 1);
+        el.textContent = txt;
+        setTimeout(type, DEL_SPEED);
+      } else {
+        deleting = false;
+        i++;
+        setTimeout(type, 200);
+      }
+    }
 
-        // start
-        type();
+    type();
 
-        // blink caret without CSS file
-        setInterval(() => {
-        caret.style.opacity = caret.style.opacity === "0" ? ".85" : "0";
-        }, 500);
-    });
-    </script>
+    // Blink caret
+    setInterval(() => {
+      caret.style.opacity = caret.style.opacity === "0" ? ".85" : "0";
+    }, 500);
+  }
+
+  // kick off
+  startTypewriter();
+</script>
+
 </html>
