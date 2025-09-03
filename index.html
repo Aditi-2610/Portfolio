@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="triad-balanced">
+<html lang="en" data-theme="triad-deep">
     
 <head>
     <meta charset="UTF-8">
@@ -32,15 +32,12 @@
             --border-color:   #d7dee7;
             }
 
-            :root[data-theme="triad-balanced"] {
-            /* deeper versions of your triad */
-            --primary-color: #7c98b6; /* deepened Slate Azure */
-            --accent-color:  #b982a6; /* deepened Amber Rose */
-
-            /* optional supporting tones */
-            --tone-green:    #8fb77b; /* deepened Willow Brook */
-            --tone-blue:     #7c98b6;
-            --tone-pink:     #b982a6;
+            :root[data-theme="triad-deep"] {
+            --primary-color: #5b7ea6; /* deeper Slate Azure */
+            --accent-color: #b35f8e; /* richer Amber Rose */
+            --tone-green: #7ca86a; /* deeper Willow Brook */
+            --tone-blue: #5b7ea6;
+            --tone-pink: #b35f8e;
             }}
 
     @layer base {
@@ -71,6 +68,12 @@
             @apply py-16 px-4 sm:px-6 lg:px-8;
         }
     }
+
+    .btn-primary:hover, .btn-secondary:hover { filter: brightness(1.06); }
+
+
+    /* Soft depth for cards & buttons (matches your style) */
+    .card, .btn-primary, .btn-secondary { box-shadow: 0 6px 20px rgba(17, 24, 39, 0.06); }
     </style>
 
 </head>
