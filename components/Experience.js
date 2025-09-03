@@ -119,7 +119,7 @@ function Experience() {
                 <div className="flex flex-col lg:flex-row lg:items-start gap-6">
                   {/* Timeline indicator */}
                   <div className="flex-shrink-0">
-                    <div className="w-16 h-16 bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)] rounded-xl flex items-center justify-center">
+                    <div className="w-16 h-16 bg-gradient-to-r from-[var(--primary-color)] to-[var(--gradient-dark)] rounded-xl flex items-center justify-center">
                       <div className="icon-briefcase text-2xl text-white"></div>
                     </div>
                   </div>
