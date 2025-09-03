@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="triad-pastel">
+<html lang="en" data-theme="triad-balanced">
     
 <head>
     <meta charset="UTF-8">
@@ -26,22 +26,22 @@
     <style type="text/tailwindcss">
     @layer theme {
         :root {
-            --secondary-color: #f8fafc;   /* light background */
-            --text-primary:   #0f172a;    /* headings */
-            --text-secondary: #475569;    /* body text */
-            --border-color:   #e2e8f0;
+            --secondary-color: #f6f8fb;   /* slightly darker page bg */
+            --text-primary:   #0b1220;    /* stronger headings */
+            --text-secondary: #334155;    /* darker body text */
+            --border-color:   #d7dee7;
             }
 
-        :root[data-theme="triad-pastel"] {
-            /* Use blue → pink for gradients and CTAs */
-            --primary-color: #9ab2cd;  /* Slate Azure */
-            --accent-color:  #cd9ab2;  /* Amber Rose */
+            :root[data-theme="triad-balanced"] {
+            /* deeper versions of your triad */
+            --primary-color: #7c98b6; /* deepened Slate Azure */
+            --accent-color:  #b982a6; /* deepened Amber Rose */
 
-            /* Extra tokens you can use for chips/badges/backgrounds */
-            --tone-green:    #b2cd9a;  /* Willow Brook */
-            --tone-blue:     #9ab2cd;  /* same as primary */
-            --tone-pink:     #cd9ab2;  /* same as accent */
-         } }
+            /* optional supporting tones */
+            --tone-green:    #8fb77b; /* deepened Willow Brook */
+            --tone-blue:     #7c98b6;
+            --tone-pink:     #b982a6;
+            }}
 
     @layer base {
         body {
