@@ -1,6 +1,7 @@
 function Hero() {
   try {
     return (
+
       <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white to-[var(--secondary-color)] pt-16" data-name="hero" data-file="components/Hero.js">
         <div className="max-w-6xl mx-auto section-padding text-center">
           <div className="max-w-3xl mx-auto">
@@ -65,7 +66,9 @@ function Hero() {
             </div>
           </div>
         </div>
+        
       </section>
+      
     );
   } catch (error) {
     console.error('Hero component error:', error);
